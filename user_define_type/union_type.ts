@@ -1,5 +1,10 @@
-let userId: string | number | boolean; // union er maddhome combine korlam
+function checkValue(input: string | boolean) {
+  if (typeof input === "string") {
+    console.log(`String value: ${input.toUpperCase()}`);
+  } else {
+    console.log(`Boolean value: ${input ? "True" : "False"}`);
+  }
+}
 
-userId = "107";
-userId = 45465;
-userId = true;
+checkValue("Hello");
+checkValue(true);
