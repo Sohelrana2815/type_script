@@ -1,22 +1,24 @@
-// object type
-// optional ? bebohar korte pari
+// // Object type
 
-let users: object[];
+// let users: object[];
 
-users = [];
+// users = [];
 
-let user1: { userName: string; userId: number };
+// let user1: { userName: string; userId: number; isActive?: true };
+// let user2: { userName: string; userId: number; isActive?: true };
 
-user1 = { userName: "moon", userId: 152302 };
-
-users.push(user1);
-
-let user2: { userName: string; userId: number };
-
-user2 = { userName: "rana", userId: 31007 };
-
-users.push(user2);
-
-for (const key in users) {
-  console.log(users[key]["userId"]);
-}
+// (user1 = { 
+//   userName: "Sohel Rana",
+//   userId: 3260,
+//   isActive: true,
+// }),
+//   (user2 = {
+//     userName: "Tech helpful",
+//     userId: 1051,
+//   }),
+//   users.push(user1);
+// users.push(user2);
+// for(const key in users) {
+//   console.log(users[key]["userId"]);
+  
+// }
