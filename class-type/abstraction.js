@@ -28,7 +28,7 @@ var Student = /** @class */ (function (_super) {
         return _this;
     }
     Student.prototype.display = function () {
-        console.log("userName: ".concat(this.userName, ", age: ").concat(this.age, ", id: ").concat(this.studentId));
+        console.log("username: ".concat(this.userName, ", age: ").concat(this.age, ", id: ").concat(this.studentId));
     };
     return Student;
 }(User));

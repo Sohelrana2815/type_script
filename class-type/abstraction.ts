@@ -7,7 +7,7 @@ abstract class User {
     this.age = age;
   }
 
-  abstract display(): void;
+  abstract display(): void; // kono abstract class k kono class inherit korle shetar method dite hobe
 }
 
 class Student extends User {
@@ -17,9 +17,10 @@ class Student extends User {
     super(userName, age);
     this.studentId = studentId;
   }
+
   display(): void {
     console.log(
-      `userName: ${this.userName}, age: ${this.age}, id: ${this.studentId}`
+      `username: ${this.userName}, age: ${this.age}, id: ${this.studentId}`
     );
   }
 }
