@@ -13,7 +13,6 @@ age = 23;
 function addNumbers(num1: number, num2: number) {
   console.log(num1 + num2);
 }
+//  Result : 50
 
 addNumbers(20, 30);
-
-

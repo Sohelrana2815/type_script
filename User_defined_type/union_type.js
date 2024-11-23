@@ -8,3 +8,4 @@ function displayUserInfo(userId) {
 }
 displayUserInfo("John");
 displayUserInfo(123);
+// Result : John  123

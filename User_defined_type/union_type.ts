@@ -1,4 +1,4 @@
-// User defined type: Union type 
+// User defined type: Union type
 
 let userId: string | number | boolean;
 
@@ -12,3 +12,5 @@ function displayUserInfo(userId: string | number) {
 
 displayUserInfo("John");
 displayUserInfo(123);
+
+// Result : John  123

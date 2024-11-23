@@ -1,6 +1,17 @@
-1. TypeScript environment setup : // tsc index.ts ==> index.js ==> node index.js
+How does typescript work?
 
-2. Data types : \* Any (Super type)
-   - built in types : number, string boolean, void, null , undefined etc
+*** index.ts -> tsc index.ts -> index.js
 
-3. User Define: 
+    Environment setup
+
+   1. Install node & typescript
+
+    *** local installation: npm intsall typescript --save-dev
+    Or
+    *** global installation: npm install -g typescript
+
+check various versions:
+
+  node --version
+  npm --version
+  tsc --version
