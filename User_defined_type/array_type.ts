@@ -1,18 +1,16 @@
-// User defined type: Array type
+// let userNames: string[];
 
-let userNames: string[];
+let userNames: Array<String>;
 
-userNames = ["john", "smith", "mosh", "mina"];
-console.log(userNames[0]);
+userNames = ["mosh", "john", "khan", "smith"];
+
+console.log(userNames);
+
+let multipleTypes: (string | number)[];
+
+multipleTypes = ["rocky", 46546];
+
 
 userNames.sort();
 
 console.log(userNames);
-
-// Result : [ 'john', 'mina', 'mosh', 'smith' ]
-
-//  Array Multiple types
-
-let multipleTypes: (string | number)[];
-
-multipleTypes = [1, "name"];

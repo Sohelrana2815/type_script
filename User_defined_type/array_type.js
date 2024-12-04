@@ -1,10 +1,8 @@
-// User Defined T Array Types
+// let userNames: string[];
 var userNames;
-userNames = ["john", "smith", "mosh", "mina"];
-console.log(userNames[0]);
+userNames = ["mosh", "john", "khan", "smith"];
+console.log(userNames);
+var multipleTypes;
+multipleTypes = ["rocky", 46546];
 userNames.sort();
 console.log(userNames);
-// Result : [ 'john', 'mina', 'mosh', 'smith' ]
-//  Array Multiple types
-var multipleTypes;
-multipleTypes = [1, "name"];
