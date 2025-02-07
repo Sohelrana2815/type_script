@@ -18,7 +18,7 @@ function addNewPizza(pizzaObj: Pizza) {
   menu.push(pizzaObj);
 }
 
-function placeholder(pizzaName) {
+function placeholder(pizzaName: string) {
   const selectedPizza = menu.find((pizzaObj) => pizzaObj.name === pizzaName);
   if (!selectedPizza) {
     console.error(`${pizzaName} does not exist in the menu`);
