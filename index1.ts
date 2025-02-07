@@ -4,31 +4,16 @@ type Person = {
   name: string;
   age: number;
   isStudent: boolean;
-  address: {
-    street: string;
-    city: string;
-    country: string;
-  };
 };
 
-let person: Person = {
-  name: "Sohel",
+let person1: Person = {
+  name: "Moon",
   age: 24,
   isStudent: true,
-  address: {
-    street: "123 street",
-    city: "Dhaka",
-    country: "Bangladesh", 
-  },
 };
 
 let person2: Person = {
-  name: "Rana",
-  age: 24,
-  isStudent: false,
-  address: {
-    street: "456 street",
-    city: "Khulna",
-    country: "Bangladesh",
-  },
+  name: "Joe",
+  age: 50,
+  isstudent: false,
 };
