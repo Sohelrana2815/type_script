@@ -69,7 +69,7 @@ type DetailsType = NameType & AgeType;
 function showPersonInfo(personObj: DetailsType): string {
   let { firstName, lastName, age } = personObj;
 
-  return `Full name: ${firstName} ${lastName} and age is: ${age}`;
+  return `Full name: ${firstName} ${lastName} and his age is: ${age}`;
 }
 
 const personInfo: DetailsType = {
