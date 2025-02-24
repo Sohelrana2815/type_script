@@ -11,7 +11,11 @@ interface People {
   fullName(): string;
 }
 
-interface Employee extends People {
+interface Family {
+  hasWife: boolean;
+}
+
+interface Employee extends People, Family {
   designation: string;
   yearOfExperience: number;
 }
@@ -25,6 +29,7 @@ let sohel: Employee = {
   },
   designation: "Frontend Developer",
   yearOfExperience: 1.5,
+  hasWife: false,
 };
 
 console.log(sohel.fullName());
